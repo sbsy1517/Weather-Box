@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Project 3 finial</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700&amp;display=swap&amp;subset=gujarati,latin-ext'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&amp;display=swap'>
+  <link rel="stylesheet" href="./dist/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="weatherbox1">
+  <div class="top1">
+    <div class="sunny">SUNNY</div>
+    <div class="taipei">TAIPEI</div>
+    <div class="icon_sunny"> 
+      <svg icon_sunny_svg="http://www.w3.org/2000/svg" viewbox="0 0 100 100">
+        <g id="圖層_2" data-name="圖層 2">
+          <path class="sun_color" d="M50,32A18,18,0,1,1,32,50,18,18,0,0,1,50,32m0-7A25,25,0,1,0,75,50,25,25,0,0,0,50,25Z"></path>
+          <path class="sun_color" d="M96,46H89a4,4,0,0,0,0,8h7a4,4,0,0,0,0-8Z"></path>
+          <path class="sun_color" d="M11,46H4a4,4,0,0,0,0,8h7a4,4,0,0,0,0-8Z"></path>
+          <path class="sun_color" d="M82.53,13.48a4,4,0,0,0-2.83,1.16l-5,4.95a4,4,0,0,0,5.66,5.66l5-4.95a4,4,0,0,0-2.83-6.82Z"></path>
+          <path class="sun_color" d="M22.42,73.58a4,4,0,0,0-2.83,1.17l-4.95,5a4,4,0,0,0,5.66,5.66l4.95-5a4,4,0,0,0-2.83-6.83Z"></path>
+          <path class="sun_color" d="M50,0a4,4,0,0,0-4,4v7a4,4,0,0,0,8,0V4a4,4,0,0,0-4-4Z"></path>
+          <path class="sun_color" d="M50,85a4,4,0,0,0-4,4v7a4,4,0,0,0,8,0V89a4,4,0,0,0-4-4Z"></path>
+          <path class="sun_color" d="M17.47,13.48a4,4,0,0,0-2.83,6.82l4.95,4.95a4,4,0,1,0,5.66-5.66L20.3,14.64a4,4,0,0,0-2.83-1.16Z"></path>
+          <path class="sun_color" d="M77.58,73.58a4,4,0,0,0-2.83,6.83l5,5a4,4,0,0,0,5.66-5.66l-5-5a4,4,0,0,0-2.83-1.17Z"></path>
+        </g>
+      </svg>
+    </div>
+    <div class="text">
+      <div class="temp1"> 
+        <div class="numberC">36<span class="celsius">ºC</span></div>
+        <div class="numberF">96<span class="fahrenheit">°F</span></div>
+      </div>
+      <div class="day1">
+        <div class="date">MON 08.05</div>
+        <div class="time">10:25 AM</div>
+      </div>
+    </div>
+  </div>
+  <label>  
+    <input id="switch_bottom" type="checkbox"/>
+    <div class="bottom">
+      <div class="bottom1">
+        <div class="dayweather1">
+          <h3 class="week">SUN</h3>
+          <svg class="icon_sunny" icon_sunny_svg="http://www.w3.org/2000/svg" viewbox="0 0 100 100">
+            <g id="圖層_2" data-name="圖層 2">
+              <path class="sun_color" d="M50,32A18,18,0,1,1,32,50,18,18,0,0,1,50,32m0-7A25,25,0,1,0,75,50,25,25,0,0,0,50,25Z"></path>
+              <path class="sun_color" d="M96,46H89a4,4,0,0,0,0,8h7a4,4,0,0,0,0-8Z"></path>
+              <path class="sun_color" d="M11,46H4a4,4,0,0,0,0,8h7a4,4,0,0,0,0-8Z"></path>
+              <path class="sun_color" d="M82.53,13.48a4,4,0,0,0-2.83,1.16l-5,4.95a4,4,0,0,0,5.66,5.66l5-4.95a4,4,0,0,0-2.83-6.82Z"></path>
+              <path class="sun_color" d="M22.42,73.58a4,4,0,0,0-2.83,1.17l-4.95,5a4,4,0,0,0,5.66,5.66l4.95-5a4,4,0,0,0-2.83-6.83Z"></path>
+              <path class="sun_color" d="M50,0a4,4,0,0,0-4,4v7a4,4,0,0,0,8,0V4a4,4,0,0,0-4-4Z"></path>
+              <path class="sun_color" d="M50,85a4,4,0,0,0-4,4v7a4,4,0,0,0,8,0V89a4,4,0,0,0-4-4Z"></path>
+              <path class="sun_color" d="M17.47,13.48a4,4,0,0,0-2.83,6.82l4.95,4.95a4,4,0,1,0,5.66-5.66L20.3,14.64a4,4,0,0,0-2.83-1.16Z"></path>
+              <path class="sun_color" d="M77.58,73.58a4,4,0,0,0-2.83,6.83l5,5a4,4,0,0,0,5.66-5.66l-5-5a4,4,0,0,0-2.83-1.17Z"></path>
+            </g>
+          </svg>
+        </div>
+        <div class="dayweather1">
+          <h3 class="week">MON</h3>
+          <svg class="icon_sunny" icon_sunny_svg="http://www.w3.org/2000/svg" viewbox="0 0 100 100">
+            <g id="圖層_2" data-name="圖層 2">
+              <path class="sun_color" d="M50,32A18,18,0,1,1,32,50,18,18,0,0,1,50,32m0-7A25,25,0,1,0,75,50,25,25,0,0,0,50,25Z"></path>
+              <path class="sun_color" d="M96,46H89a4,4,0,0,0,0,8h7a4,4,0,0,0,0-8Z"></path>
+              <path class="sun_color" d="M11,46H4a4,4,0,0,0,0,8h7a4,4,0,0,0,0-8Z"></path>
+              <path class="sun_color" d="M82.53,13.48a4,4,0,0,0-2.83,1.16l-5,4.95a4,4,0,0,0,5.66,5.66l5-4.95a4,4,0,0,0-2.83-6.82Z"></path>
+              <path class="sun_color" d="M22.42,73.58a4,4,0,0,0-2.83,1.17l-4.95,5a4,4,0,0,0,5.66,5.66l4.95-5a4,4,0,0,0-2.83-6.83Z"></path>
+              <path class="sun_color" d="M50,0a4,4,0,0,0-4,4v7a4,4,0,0,0,8,0V4a4,4,0,0,0-4-4Z"></path>
+              <path class="sun_color" d="M50,85a4,4,0,0,0-4,4v7a4,4,0,0,0,8,0V89a4,4,0,0,0-4-4Z"></path>
+              <path class="sun_color" d="M17.47,13.48a4,4,0,0,0-2.83,6.82l4.95,4.95a4,4,0,1,0,5.66-5.66L20.3,14.64a4,4,0,0,0-2.83-1.16Z"></path>
+              <path class="sun_color" d="M77.58,73.58a4,4,0,0,0-2.83,6.83l5,5a4,4,0,0,0,5.66-5.66l-5-5a4,4,0,0,0-2.83-1.17Z"></path>
+            </g>
+          </svg>
+        </div>
+        <div class="dayweather1">
+          <h3 class="week">TUE</h3>
+          <svg class="icon_rainy_day" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 96.92 90.53">
+            <g id="圖層_2" data-name="圖層 2">
+              <g id="cloud_out">
+                <path class="bad_cloud" d="M74.7,67c10.9-.41,20.36-8,22-19S91.4,27,81.08,23.41l2.44,2.45a29.7,29.7,0,0,0-56.39-8.69l3-1.73c-11.89,0-22.75,3.66-28,15.35-5.64,12.64,0,27.15,12.09,33.48,4,2.09,7.52-3.95,3.53-6C8.24,53.2,3.89,41.67,9.42,32c4.53-8,12.34-9.51,20.74-9.51a3.46,3.46,0,0,0,3-1.74C37.82,11.1,47.84,5.25,58.57,7.41c10.08,2,16.84,10.39,18.2,20.31a3.49,3.49,0,0,0,2.45,2.44C95.37,35.75,91.73,59.34,74.7,60c-4.49.16-4.52,7.16,0,7Z"></path>
+              </g>
+              <g id="rain_drop">
+                <path class="rain_drop1" d="M39.53,68.74,29.81,85.31c-2.29,3.89,3.76,7.42,6,3.53l9.72-16.57c2.29-3.89-3.76-7.42-6-3.53Z"></path>
+                <path class="rain_drop2" d="M59,64.24,49.31,80.81c-2.29,3.89,3.76,7.42,6,3.53l9.72-16.57c2.29-3.89-3.76-7.42-6-3.53Z"></path>
+                <path class="rain_drop3" d="M30.53,53.74,20.81,70.31c-2.29,3.89,3.76,7.42,6,3.53l9.72-16.57c2.29-3.89-3.76-7.42-6-3.53Z"></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="dayweather1">
+          <h3 class="week">WED</h3>
+          <svg class="icon_thunderstorm" icon_rainy__svg="http://www.w3.org/2000/svg" viewbox="0 0 96.92 90.53">
+            <g id="圖層_2" data-name="圖層 2">
+              <g id="cloud_out">
+                <path class="bad_cloud" d="M74.7,67c10.9-.41,20.36-8,22-19S91.4,27,81.08,23.41l2.44,2.45a29.7,29.7,0,0,0-56.39-8.69l3-1.73c-11.89,0-22.75,3.66-28,15.35-5.64,12.64,0,27.15,12.09,33.48,4,2.09,7.52-3.95,3.53-6C8.24,53.2,3.89,41.67,9.42,32c4.53-8,12.34-9.51,20.74-9.51a3.46,3.46,0,0,0,3-1.74C37.82,11.1,47.84,5.25,58.57,7.41c10.08,2,16.84,10.39,18.2,20.31a3.49,3.49,0,0,0,2.45,2.44C95.37,35.75,91.73,59.34,74.7,60c-4.49.16-4.52,7.16,0,7Z"></path>
+              </g>
+              <g id="raindrop">
+                <path class="rain_drop3" d="M39.53,68.74,29.81,85.31c-2.29,3.89,3.76,7.42,6,3.53l9.72-16.57c2.29-3.89-3.76-7.42-6-3.53Z"></path>
+                <path class="rain_drop4" d="M30.53,53.74,20.81,70.31c-2.29,3.89,3.76,7.42,6,3.53l9.72-16.57c2.29-3.89-3.76-7.42-6-3.53Z"></path>
+              </g>
+              <g id="thunder">
+                <polygon class="thunder" points="51.79 78.44 71.91 52.9 61.66 52.9 68.71 34.65 48.45 60.37 58.77 60.37 51.79 78.44"></polygon>
+                <path class="thunder" d="M52.85,79.5,73,54a1.53,1.53,0,0,0-1.06-2.57H61.66l1.45,1.9,7-18.24c.52-1.36-1.59-2.62-2.51-1.46L47.39,59.31a1.52,1.52,0,0,0,1.06,2.56H58.77L57.32,60,50.34,78c-.69,1.8,2.2,2.58,2.89.79l7-18.06a1.52,1.52,0,0,0-1.45-1.9H48.45l1.06,2.57L69.77,35.71l-2.51-1.46L60.21,52.5a1.51,1.51,0,0,0,1.45,1.89H71.91l-1.06-2.56L50.73,77.37C49.55,78.88,51.65,81,52.85,79.5Z"></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="dayweather1">
+          <h3 class="week">THU</h3>
+          <svg class="icon_thunderstorm" icon_rainy__svg="http://www.w3.org/2000/svg" viewbox="0 0 96.92 90.53">
+            <g id="圖層_2" data-name="圖層 2">
+              <g id="cloud_out">
+                <path class="bad_cloud" d="M74.7,67c10.9-.41,20.36-8,22-19S91.4,27,81.08,23.41l2.44,2.45a29.7,29.7,0,0,0-56.39-8.69l3-1.73c-11.89,0-22.75,3.66-28,15.35-5.64,12.64,0,27.15,12.09,33.48,4,2.09,7.52-3.95,3.53-6C8.24,53.2,3.89,41.67,9.42,32c4.53-8,12.34-9.51,20.74-9.51a3.46,3.46,0,0,0,3-1.74C37.82,11.1,47.84,5.25,58.57,7.41c10.08,2,16.84,10.39,18.2,20.31a3.49,3.49,0,0,0,2.45,2.44C95.37,35.75,91.73,59.34,74.7,60c-4.49.16-4.52,7.16,0,7Z"></path>
+              </g>
+              <g id="raindrop">
+                <path class="rain_drop3" d="M39.53,68.74,29.81,85.31c-2.29,3.89,3.76,7.42,6,3.53l9.72-16.57c2.29-3.89-3.76-7.42-6-3.53Z"></path>
+                <path class="rain_drop4" d="M30.53,53.74,20.81,70.31c-2.29,3.89,3.76,7.42,6,3.53l9.72-16.57c2.29-3.89-3.76-7.42-6-3.53Z"></path>
+              </g>
+              <g id="thunder">
+                <polygon class="thunder" points="51.79 78.44 71.91 52.9 61.66 52.9 68.71 34.65 48.45 60.37 58.77 60.37 51.79 78.44"></polygon>
+                <path class="thunder" d="M52.85,79.5,73,54a1.53,1.53,0,0,0-1.06-2.57H61.66l1.45,1.9,7-18.24c.52-1.36-1.59-2.62-2.51-1.46L47.39,59.31a1.52,1.52,0,0,0,1.06,2.56H58.77L57.32,60,50.34,78c-.69,1.8,2.2,2.58,2.89.79l7-18.06a1.52,1.52,0,0,0-1.45-1.9H48.45l1.06,2.57L69.77,35.71l-2.51-1.46L60.21,52.5a1.51,1.51,0,0,0,1.45,1.89H71.91l-1.06-2.56L50.73,77.37C49.55,78.88,51.65,81,52.85,79.5Z"></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="dayweather1">
+          <h3 class="week">FRI</h3>
+          <svg class="icon_sunny" icon_sunny_svg="http://www.w3.org/2000/svg" viewbox="0 0 100 100">
+            <g id="圖層_2" data-name="圖層 2">
+              <path class="sun_color" d="M50,32A18,18,0,1,1,32,50,18,18,0,0,1,50,32m0-7A25,25,0,1,0,75,50,25,25,0,0,0,50,25Z"></path>
+              <path class="sun_color" d="M96,46H89a4,4,0,0,0,0,8h7a4,4,0,0,0,0-8Z"></path>
+              <path class="sun_color" d="M11,46H4a4,4,0,0,0,0,8h7a4,4,0,0,0,0-8Z"></path>
+              <path class="sun_color" d="M82.53,13.48a4,4,0,0,0-2.83,1.16l-5,4.95a4,4,0,0,0,5.66,5.66l5-4.95a4,4,0,0,0-2.83-6.82Z"></path>
+              <path class="sun_color" d="M22.42,73.58a4,4,0,0,0-2.83,1.17l-4.95,5a4,4,0,0,0,5.66,5.66l4.95-5a4,4,0,0,0-2.83-6.83Z"></path>
+              <path class="sun_color" d="M50,0a4,4,0,0,0-4,4v7a4,4,0,0,0,8,0V4a4,4,0,0,0-4-4Z"></path>
+              <path class="sun_color" d="M50,85a4,4,0,0,0-4,4v7a4,4,0,0,0,8,0V89a4,4,0,0,0-4-4Z"></path>
+              <path class="sun_color" d="M17.47,13.48a4,4,0,0,0-2.83,6.82l4.95,4.95a4,4,0,1,0,5.66-5.66L20.3,14.64a4,4,0,0,0-2.83-1.16Z"></path>
+              <path class="sun_color" d="M77.58,73.58a4,4,0,0,0-2.83,6.83l5,5a4,4,0,0,0,5.66-5.66l-5-5a4,4,0,0,0-2.83-1.17Z"></path>
+            </g>
+          </svg>
+        </div>
+        <div class="dayweather1">
+          <h3 class="week">SAT</h3>
+          <svg class="icon_rainy_day" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 96.92 90.53">
+            <g id="圖層_2" data-name="圖層 2">
+              <g id="cloud_out">
+                <path class="bad_cloud" d="M74.7,67c10.9-.41,20.36-8,22-19S91.4,27,81.08,23.41l2.44,2.45a29.7,29.7,0,0,0-56.39-8.69l3-1.73c-11.89,0-22.75,3.66-28,15.35-5.64,12.64,0,27.15,12.09,33.48,4,2.09,7.52-3.95,3.53-6C8.24,53.2,3.89,41.67,9.42,32c4.53-8,12.34-9.51,20.74-9.51a3.46,3.46,0,0,0,3-1.74C37.82,11.1,47.84,5.25,58.57,7.41c10.08,2,16.84,10.39,18.2,20.31a3.49,3.49,0,0,0,2.45,2.44C95.37,35.75,91.73,59.34,74.7,60c-4.49.16-4.52,7.16,0,7Z"></path>
+              </g>
+              <g id="rain_drop">
+                <path class="rain_drop1" d="M39.53,68.74,29.81,85.31c-2.29,3.89,3.76,7.42,6,3.53l9.72-16.57c2.29-3.89-3.76-7.42-6-3.53Z"></path>
+                <path class="rain_drop2" d="M59,64.24,49.31,80.81c-2.29,3.89,3.76,7.42,6,3.53l9.72-16.57c2.29-3.89-3.76-7.42-6-3.53Z"></path>
+                <path class="rain_drop3" d="M30.53,53.74,20.81,70.31c-2.29,3.89,3.76,7.42,6,3.53l9.72-16.57c2.29-3.89-3.76-7.42-6-3.53Z"></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="bottom2">
+        <div class="timebox1">
+          <h3 class="clock">12</h3>
+          <h5 class="ccc">38<span class="celsius_bottom">ºC</span></h5>
+          <h5 class="fff">99<span class="fahrenheit_buttom">°F</span></h5>
+        </div>
+        <div class="timebox1">
+          <h3 class="clock">14</h3>
+          <h5 class="ccc">37<span class="celsius_bottom">ºC</span></h5>
+          <h5 class="fff">98<span class="fahrenheit_buttom">°F</span></h5>
+        </div>
+        <div class="timebox1">
+          <h3 class="clock">16</h3>
+          <h5 class="ccc">35<span class="celsius_bottom">ºC</span></h5>
+          <h5 class="fff">95<span class="fahrenheit_buttom">°F</span></h5>
+        </div>
+        <div class="timebox1">
+          <h3 class="clock">18</h3>
+          <h5 class="ccc">32<span class="celsius_bottom">ºC</span></h5>
+          <h5 class="fff">89<span class="fahrenheit_buttom">°F</span></h5>
+        </div>
+        <div class="timebox1">
+          <h3 class="clock">20</h3>
+          <h5 class="ccc">28<span class="celsius_bottom">ºC</span></h5>
+          <h5 class="fff">82<span class="fahrenheit_buttom">°F</span></h5>
+        </div>
+        <div class="timebox1">
+          <h3 class="clock">22</h3>
+          <h5 class="ccc">27<span class="celsius_bottom">ºC</span></h5>
+          <h5 class="fff">80<span class="fahrenheit_buttom">°F</span></h5>
+        </div>
+      </div>
+    </div>
+  </label>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
